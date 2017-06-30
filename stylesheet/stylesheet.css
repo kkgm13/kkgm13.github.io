@@ -1,0 +1,134 @@
+body {
+	background-color: black;
+	/*background-color: white;*/
+	/*color: black;*/
+	color: white;
+	width: 100%;
+
+}
+
+/*.background-image{
+	background: url('../graphics/img/spectrum.gif') repeat;
+	width:100%;
+	height: auto;
+	z-index:-1;
+}*/
+
+.spacer{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+/*Navigation Bar*/
+.navbar-inverse {
+	/*background-color: transparent;*/
+	background-color: black;
+	z-index: 1;
+	margin: 0px;
+}
+
+#dropDown-List{
+	background-color: black;
+}
+
+/*Title Page*/
+#bgImg1{
+	position: relative;
+	background: url('../graphics/img/spectrum.gif');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	max-height: 100%;
+	padding: 0px 0px;
+	z-index: -1;
+	margin-bottom: 0px;
+	height: 800px;
+	width: 100%;
+}
+
+
+#headTitle{
+	position: absolute;
+	left: 0%;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+	letter-spacing: 0.5px;
+}
+
+#headTitle>h3{
+	margin: 0;
+}
+
+/*About Me Section*/
+#descriptionTitle, #spareTitle{
+	background-color: Azure;
+	color: black;
+	height: 100%;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#languageTitle {
+	background-color: Azure;
+	color: black;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+#programLanguages{
+	font-size: 15px;
+}
+
+.page-header>h2, .page-header>h3{
+	text-align: center;
+	letter-spacing: 5px;
+	font-style: italic;
+}
+
+#describeText, #spareTimeText{
+	padding: 0px 20px;
+	padding-bottom: 20px;
+	text-align: justify-all;
+	letter-spacing: 1px;
+}
+
+/*Carasol*/
+#projectsDiv{
+	background-color: Gainsboro;
+	color: black;
+	height: 850px;
+	margin-bottom: 20px;
+}
+
+#myCarousel{
+	margin-top: 50px;
+}
+.carousel-indicators>li{
+	border: 1px solid #555;
+	background-color: grey;
+}
+.carousel-indicators .active{
+	background-color: black
+}
+.item img{
+	margin: 0 auto;
+}
+.carousel-caption h3, .carousel-caption p{
+	color: brown;
+	text-shadow: 0 1px 2px rgba(255,255,255,.6)
+}
+
+#hackWin{
+	font-style: italic;
+	color: green;
+}
+
+/*Responsive Changes*/
+@media(max-width: 450px){
+	#headTitle>h2{
+		font-size: 20px;
+	}
+}
