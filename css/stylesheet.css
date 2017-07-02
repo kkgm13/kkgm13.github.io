@@ -7,13 +7,6 @@ body {
 
 }
 
-/*.background-image{
-	background: url('../graphics/img/spectrum.gif') repeat;
-	width:100%;
-	height: auto;
-	z-index:-1;
-}*/
-
 .spacer{
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -21,7 +14,6 @@ body {
 
 /*Navigation Bar*/
 .navbar-inverse {
-	/*background-color: transparent;*/
 	background-color: black;
 	z-index: 1;
 	margin: 0px;
@@ -45,6 +37,7 @@ body {
 	margin-bottom: 0px;
 	height: 800px;
 	width: 100%;
+	/*filter: blur(1px);*/
 }
 
 
