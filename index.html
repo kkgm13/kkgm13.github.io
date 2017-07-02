@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Github Pages Test</title>
+		<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!--Website CSS-->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<!--Title-->
+	<title>Kelvin Khryss G. Minguell</title>
+		<!--Metadata-->
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="stylesheet/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Tab Icons-->
+	<link rel="shortcut-icon" href="graphics/img/Dj KKGM.jpg"/>
 </head>
 <body>
-	<h1>Hello World</h1>
-	<hr>
-	<br>
-	<img src="graphics/img/Dj KKGM.jpg">
+	<!--Navigation Bar-->
+	<nav id="navabar">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html"><img class="navbar-brand" alt="Kelvin Khryss Minguell" src="graphics/img/Dj KKGM.jpg" style="width: 50px; height: 50px; padding: 5px 5px;"></a> 
+				</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right" id="dropDown-List">
+						<li><a href="#descriptionTitle">About Me</a></li>
+						<!--Current Projects-->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Current Projects<span class="caret">1</span></a>
+							<!--Current-->
+							<ul class="dropdown-menu">
+								<li><a href="#">VR Demo</a></li>			
+								<li><a href="#">hackaTrack (Hackathon Event Tracker)<span class="badge">*</span></a></li>
+								<!-- <li><span class="badge">*</span><a href="#">Project Name</a></li> -->
+								<!-- <li role="separator" class="divider"></li> -->
+							</ul>
+						</li>
+						<!--Past Projects-->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Past Projects<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Design Technology Database (DTD)</a></li>
+								<li><a href="#">IASAS 2014 Swimming TrackBot</a></li>
+								<li><a href="#">Ledggy</a></li>
+								<li><a href="#">Environments (Sample VR Demo)</a></li>
+								<li><a href="#">BotherGoose</a></li>
+								<li><a href="#">LegoLandscape</a></li>
+								<!-- <li><span class="badge">*</span><a href="#">Project Name</a></li> -->
+								<!-- <li role="separator" class="divider"></li> -->
+							</ul>
+						</li>
+						<!--Spare Time-->
+						<li><a href="#spareTitle">My Spare Time</a></li>
+						<!--Resume / CV-->
+						<li><a href="graphics/files/Kelvin_Khryss_G_Minguell-Resume.pdf">Resume / CV</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</nav>
+
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!--JavaScript-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
