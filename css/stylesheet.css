@@ -93,6 +93,10 @@ body {
 	letter-spacing: 1px;
 }
 
+#describeText>p{
+	font-size: 20px;
+}
+
 /*Carasol*/
 #projectsDiv{
 	background-color: Gainsboro;
