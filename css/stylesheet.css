@@ -90,6 +90,7 @@ body {
 
 #institutions{
 	position: relative;
+	background-size: 100%;
 }
 
 #describeText, #spareTimeText{
