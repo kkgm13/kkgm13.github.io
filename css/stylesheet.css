@@ -27,6 +27,7 @@ body {
 #bgImg1{
 	position: relative;
 	background: url('../graphics/img/spectrum.gif');
+	background-attachment: scroll;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: repeat;
@@ -125,6 +126,13 @@ body {
 }
 
 /*Responsive Changes*/
+	/*Mobile Parallax Fix*/
+@media only screen and (max-device-width: 1024px) {
+    #bgImg1{
+        background-attachment: scroll;
+    }
+}
+
 @media(max-width: 450px){
 	#headTitle>h2{
 		font-size: 20px;
