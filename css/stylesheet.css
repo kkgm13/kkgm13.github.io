@@ -136,6 +136,12 @@ body {
     }
 }
 
+@media(max-width: 525px){
+	.carousel-caption h3, .carousel-caption p, #hackWin{
+		font-size: 12px;
+	}
+}
+
 @media(max-width: 450px){
 	#headTitle>h2{
 		font-size: 20px;
