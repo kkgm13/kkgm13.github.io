@@ -39,21 +39,21 @@
 							<!--Current-->
 							<ul class="dropdown-menu">
 								<li><a href="#">VR Demo</a></li>			
-								<li><a href="#">hackaTrack (Hackathon Event Tracker)<span class="badge">*</span></a></li>
+								<li><a href="https://kkgm13.github.io/hackaTrack/">hackaTrack (Hackathon Event Tracker)<span class="badge">*</span></a></li>
 								<!-- <li><span class="badge">*</span><a href="#">Project Name</a></li> -->
 								<!-- <li role="separator" class="divider"></li> -->
 							</ul>
 						</li>
 						<!--Past Projects-->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Past Projects<span class="caret"></span></a>
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Past Projects<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Design Technology Database (DTD)</a></li>
 								<li><a href="https://www.youtube.com/watch?v=4u45j47jSSU">IASAS 2014 Swimming TrackBot</a></li>
 								<li><a href="#">Ledggy</a></li>
 								<li><a href="#">Environments (Sample VR Demo)</a></li>
-								<li><a href="#">BotherGoose</a></li>
-								<li><a href="#">LegoLandscape</a></li>
+								<li onclick="alert('Due to servers, the page has been shut down. Continue to see the GitHub Repository for BotherGoose.')"><a href="https://github.com/JordanL1/BotherGoose">BotherGoose</a></li>
+								<li><a href="https://github.com/kkgm13/LegoLandscape">LegoLandscape</a></li>
 								<!-- <li><span class="badge">*</span><a href="#">Project Name</a></li> -->
 								<!-- <li role="separator" class="divider"></li> -->
 							</ul>
@@ -61,8 +61,7 @@
 						<!--Spare Time-->
 						<li><a href="#spareTitle">My Spare Time</a></li>
 						<!--Resume / CV-->
-						<li><a href="graphics/files/Kelvin_Khryss_G_Minguell-Resume.pdf">
-						Resume / CV</a></li>
+						<li onclick="alert('Not currently avaliable')"><a href="">Resume / CV</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -74,7 +73,7 @@
 		<div class="container-fluid spacer">
 			<main id="headTitle">
 				<h1 style="color: BurlyWood; text-shadow: 1px 1px white; filter: blur(0px);">Kelvin Khryss G. Minguell</h1>
-				<h3><em style="color: DarkRed; text-shadow: 0.5px 0.5px white;">Trick of the Trade</em></h3>
+				<!-- <h3><em style="color: DarkRed; text-shadow: 0.5px 0.5px white;">Trick of the Trade</em></h3> -->
 			</main>
 		</div>
 	</div>
@@ -85,7 +84,7 @@
 			<h2>About Me</h2>
 		</div>
 		<article id="describeText">
-			<p>I'm a Filipino-Trinidadian IT enthusiast, currently in <span style="font-style: italic;">Brimingham, UK</span> for University, with a childhood background from Kuwait and the Philippines, learning and practicing new programming languages instead of language specializing.</p>
+			<p>I'm a Filipino-Trinidadian IT enthusiast, currently in <span style="font-style: italic;">Brimingham, UK</span> for University, with a childhood background from both Kuwait and the Philippines, learning and practicing new programming languages instead of language specializing.</p>
 			<br>
 			<div class="row">
 
@@ -121,7 +120,7 @@
 			</div>
 		</article>
 	</div>
-
+<!-- <!-- 
 	<!--Programming Languages-->
 	<div class="container-fluid" id="languageTitle">
 		<div class="page-header">
@@ -132,14 +131,22 @@
 					<!--Java-->
 				<div class="col-xs-12 col-sm-6">
 					<a class="thumbnail">
-						<img src="http://logodatabases.com/wp-content/uploads/2012/03/java-icon.png" alt="Java" style="height: 300px">
+						<img src="graphics/img/java-icon.png" alt="Java" style="height: 300px">
 					</a>
+					<!-- Percentage -->
+					<div class="skillscontainer">
+						<div class="skills java">33%</div>
+					</div>
  				</div>
 					<!--VEX Robotics-->
 				<div class="col-xs-12 col-sm-6">
 					<a class="thumbnail">
-						<img src="https://media.team254.com/2016/03/964607df-Vex-Logo1.png" alt="VEX Robotics" style="height: 300px; background-size: 100%;">
+						<img src="graphics/img/964607df-Vex-Logo1.png" alt="VEX Robotics" style="height: 300px; background-size: 100%;">
 					</a>
+					<!-- Percentage -->
+					<div class="skillscontainer">
+						<div class="skills vex">43%</div>
+					</div>
  				</div>
  				
 			</div>
@@ -147,28 +154,50 @@
 					<!--Unity-->
 				<div class="col-xs-12 col-md-6">
 					<a class="thumbnail">
-						<img src="https://unity3d.com/profiles/unity3d/themes/unity/images/company/brand/logos/primary/unity-logo.png" alt="Unity with C#" style="height: 300px; padding: 5% 0%; background-size: 100%;">
+						<!-- Image Ratio Aspect REQUIRED -->
+						<img src="graphics/img/unity-logo.png" alt="Unity with C#" style="height: 300px; padding: 5% 0%; background-size: 100%;">
 					</a>
+					<!-- Percentage -->
+					<div class="skillscontainer">
+						<div class="skills unity">30%</div>
+					</div>
  				</div>
  					<!--Front End Development-->
 				<div class="col-xs-12 col-md-6">
 					<a class="thumbnail">
-						<img src="http://www.di.univaq.it/malavolta/files/html5presentations/ivano/assets/logos.png" alt="Front-End Web Development" style="height: 300px;">
+						<!-- Image Ratio Aspect REQUIRED -->
+						<img src="graphics/img/fed-logos.png" alt="Front-End Web Development" style="height: 300px;">
 					</a>
+					<!-- Percentage -->
+					<div class="skillscontainer">
+						<div class="skills html">40%</div>
+					</div>
+					<div class="skillscontainer">
+						<div class="skills css">35%</div>
+					</div>
+					<div class="skillscontainer">
+						<div class="skills js">25%</div>
+					</div>
  				</div>
 			</div>
 			<div class="row">
  					<!--Swift-->
 				<div class="col-xs-12 col-sm-6">
 					<a class="thumbnail">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/2000px-Swift_logo.svg.png" alt="Swift" style="height: 300px">
+						<img src="graphics/img/Swift_logo.svg.png" alt="Swift" style="height: 300px">
 					</a>
+					<div class="skillscontainer">
+						<div class="skills swift">10%</div>
+					</div>
  				</div>
  					<!--GitHub-->
 				<div class="col-xs-12 col-sm-6">
 					<a class="thumbnail">
 						<img src="graphics/img/GitHub-Mark-120px-plus.png" alt="GitHub" style="height: 300px">
 					</a>
+					<div class="skillscontainer">
+						<div class="skills github">5%</div>
+					</div>
  				</div>
  			</div>
 		</main>
@@ -192,7 +221,7 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/481/142/datas/gallery.jpg" alt="LegoLandscape">
+					<img src="graphics/img/legolandscape.jpg" alt="LegoLandscape">
 					<div class="carousel-caption">
 						<h3>LegoLandscape</h3>
 						<span id="hackWin">ESRI API Winner</span>
@@ -200,21 +229,21 @@
 				</div>
 
 				<div class="item">
-				  <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/436/433/datas/gallery.jpg" alt="BotherGoose">
+				  <img src="graphics/img/bothergoose.jpg" alt="BotherGoose">
 				  <div class="carousel-caption">
 						<h3>BotherGoose</h3>
 				  </div>
 				</div>
 
 				<div class="item">
-				  <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/490/297/datas/gallery.jpg" alt="hack-a-Track">
+				  <img src="graphics/img/hackatrack.jpg" alt="hack-a-Track">
 				  <div class="carousel-caption">
 						<h3>hackaTrack</h3>
 				  </div>
 				</div>
 
 				<div class="item">
-				  <img src="https://3.bp.blogspot.com/-x1-M56UhIzs/UyqJPOPziVI/AAAAAAAABio/EWnR98bgCCw/s1600/IMG_5589.JPG" alt="IASAS Swimming TrackBot" style="height: 489.02px; background-size: 100%;">
+				  <img src="graphics/img/IMG_5589.JPG" alt="IASAS Swimming TrackBot" style="height: 100%; background-size: 100%;">
 				  <div class="carousel-caption">
 						<h3>IASAS Swimming TrackBot</h3>
 				  </div>
@@ -246,7 +275,7 @@
 					<p>Producing music with DAW software. My music can be found <a href="https://soundcloud.com/kkgm13/tracks">here</a></p>
  				</div>
  				<div class="col-md-6">
-					<center><img src="https://image.freepik.com/free-icon/news_318-32311.jpg" align="middle" alt="News" style="width:62.6%; height:62.6%;"></center>
+					<center><img src="graphics/img/news_318-32311.jpg" align="middle" alt="Tech News" style="width:62.6%; height:62.6%;"></center>
 					<p>Current affairs with technology, generally with IT-related, Apple and Android</p>
  				</div>
 			</div>
@@ -265,12 +294,14 @@
 
 	<!--Footer-->
 	<div class="container-fluid spacer text-center">
-		<footer>
+		<footer style="color: white;">
 			<h2>Questions/Inquiries? Email <a href="mailto:kkgm013@gmail.com">kkgm013@gmail.com</a></h2>
 			<h4>All Rights Reserved ©</h4>
 			<h2>KKGM</h2>
 		</footer>
-	</div>
+	</div> --> -->
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
