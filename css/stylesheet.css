@@ -1,224 +1,24 @@
-body {
-	background-color: black;
-	/*background-color: white;*/
-	color: black;
-	/*color: white;*/
-	width: 100%;
-
+main h4 {
+	text-decoration: underline;
+	color: darkgoldenrod; 
 }
 
-.spacer{
-	padding-top: 70px;
-	padding-bottom: 70px;
+.container{
+	font-size: smaller; 
 }
 
-/*Navigation Bar*/
-.navbar-inverse {
-	background-color: black;
-	z-index: 1;
-	margin: 0px;
+.row div #eduName {
+	font-weight: bolder;
 }
 
-#dropDown-List{
-	background-color: black;
-}
-
-/*Title Page*/
-#bgImg1{
-	position: relative;
-	background: url('../graphics/img/spectrum.gif');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: repeat;
-	background-size: cover;
-	max-height: 100%;
-	padding: 0px 0px;
-	z-index: -1;
-	margin-bottom: 0px;
-	height: 800px;
-	width: 100%;
-	/*filter: blur(10px);*/
-}
-
-
-#headTitle{
-	position: absolute;
-	left: 0%;
-	top: 40%;
-	width: 100%;
-	text-align: center;
-	z-index: 0;
-	letter-spacing: 0.5px;
-}
-
-#headTitle>h3{
-	margin: 0;
-}
-
-/*Main Section*/
-#descriptionTitle, #spareTitle{
-	background-color: Azure;
-	color: black;
-	height: 100%;
-	margin-bottom: 20px;
-	font-size: 25px;
-}
-	/*Program Section*/
-#languageTitle {
-	background-color: Azure;
-	color: black;
-	height: 100%;
-	margin-bottom: 20px;
-}
-
-#programLanguages{
-	font-size: 15px;
-}
-
-.page-header>h2, .page-header>h3{
-	text-align: center;
-	letter-spacing: 5px;
+.row div #eduDate {
 	font-style: italic;
 }
 
-	/*Skills*/
-.skillscontainer{
-	box-sizing: border-box;
-	width: 100%;
-	border-width: 0.4px;
-	padding-bottom: 3px;
+.row div #eduDeg {
+	font-weight: bold;
 }
 
-.skills{
-	text-align: right;
-	padding-right: 20px;
-	line-height: 40px;
-}
-	/*Types*/
-		/*Java*/
-		.java {
-			width: 33%;
-			background-color: grey;
-		}
-		/*VEX robotics*/
-		.vex {
-			width: 43%;
-			background-color: red;
-		}
-		/*Unity*/
-		.unity {
-			width: 30%;
-			background-color: #aaa;
-		}
-		/*HTML*/
-		.html{
-			width: 40%;
-			background-color: orange;
-		}
-		/*CSS*/
-		.css {
-			width: 35%;
-			background-color: cyan;
-		}
-		/*JavaScript*/
-		.js {
-			width: 25%;
-			background-color: #FC0;
-		}
-		/*Swift*/
-		.swift {
-			width: 10%;
-			background-color: brown;
-		}
-		/*Github*/
-		.github {
-			width: 5%;
-			background-color: red;
-		}
-
-
-	/*Education Section*/
-#institutions{
-	position: relative;
-	background-size: 100%;
-}
-	/*About Me / Spare Time Section*/
-#describeText, #spareTimeText{
-	padding: 0px 20px;
-	padding-bottom: 20px;
-	text-align: justify-all;
-	letter-spacing: 1px;
-}
-
-#describeText>p{
-	font-size: 20px;
-}
-
-/*Carasol*/
-#projectsDiv{
-	background-color: Gainsboro;
-	color: black;
-	height: 250%;
-	margin-bottom: 20px;
-}
-
-#myCarousel{
-	margin-top: 50px;
-}
-.carousel-indicators>li{
-	border: 1px solid #555;
-	background-color: grey;
-}
-.carousel-indicators .active{
-	background-color: black
-}
-.item img{
-	margin: 0 auto;
-}
-.carousel-caption h3, .carousel-caption p{
-	color: brown;
-	text-shadow: 0 1px 2px rgba(255,255,255,.6)
-}
-
-#hackWin{
-	font-style: italic;
-	color: green;
-}
-
-/*To-Top Button*/
-#myBtn{
-	display: none;
-	position: fixed;
-	bottom: 20px;
-	right: 30px;
-	z-index: 999;
-	border: none;
-	outline: none;
-	background-color: red;
-	color: white;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 10px;
-}
-
-#mybtn:hover{background-color: #555;}
-
-/*Responsive Changes*/
-	/*Mobile Parallax Fix*/
-@media only screen and (max-width: 1024px) {
-    #bgImg1{
-        background-attachment: scroll;
-    }
-}
-
-@media(max-width: 525px){
-	.carousel-caption h3, .carousel-caption p, #hackWin{
-		font-size: 12px;
-	}
-}
-
-@media(max-width: 450px){
-	#headTitle>h2{
-		font-size: 20px;
-	}
+.row div #eduDesc {
+	font-size: small;
 }
