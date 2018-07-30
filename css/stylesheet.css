@@ -7,18 +7,18 @@ main h4 {
 	font-size: smaller; 
 }
 
-.row div #eduName {
+.row div #eduName .row div #expName {
 	font-weight: bolder;
 }
 
-.row div #eduDate {
+.row div #eduDate, .row div #expDate {
 	font-style: italic;
 }
 
-.row div #eduDeg {
+.row div #eduDeg, .row div #expTitle {
 	font-weight: bold;
 }
 
-.row div #eduDesc {
+.row div #eduDesc, .row div expDesc {
 	font-size: small;
 }
