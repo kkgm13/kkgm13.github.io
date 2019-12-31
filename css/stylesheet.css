@@ -19,6 +19,9 @@ main h4 {
 	font-weight: bold;
 }
 
-.row div #eduDesc, .row div expDesc {
+.row div #eduDesc, .row div #expDesc {
 	font-size: small;
+}
+html, body {
+	height: auto !important;
 }
