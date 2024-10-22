@@ -646,10 +646,6 @@ video {
   width: 100%;
 }
 
-.max-w-7xl {
-  max-width: 80rem;
-}
-
 .max-w-\[50rem\] {
   max-width: 50rem;
 }
@@ -668,22 +664,6 @@ video {
 
 .basis-full {
   flex-basis: 100%;
-}
-
-@keyframes flash {
-  0%, 100% {
-    color: white;
-    transform: scale(1);
-  }
-
-  50% {
-    color: #FFD700;
-    transform: scale(1.2);
-  }
-}
-
-.animate-flash {
-  animation: flash 0.5s linear infinite;
 }
 
 .flex-col {
