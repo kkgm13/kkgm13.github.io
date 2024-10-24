@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         
             setTimeout(() => {
-                b.forEach(icon => {
+                b.forEach(c => {
                     c.classList.remove('animate-flash');
                     c.classList.add('animate-none');
                 });
@@ -22,3 +22,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// document.getElementById('contactLink').addEventListener('click', function (e) {
+//   e.preventDefault();
+
+//   document.getElementById('contactme').scrollIntoView({
+//       behavior: 'smooth'
+//   });
+
+//   const svgIcons = document.querySelectorAll('#contactme svg');
+
+//   svgIcons.forEach(icon => {
+//       icon.classList.remove('animate-none');
+//       icon.classList.add('animate-flash');
+//   });
+
+//   setTimeout(() => {
+//       svgIcons.forEach(icon => {
+//           icon.classList.remove('animate-flash');
+//           icon.classList.add('animate-none');
+//       });
+//   }, 3000); 
+// });
