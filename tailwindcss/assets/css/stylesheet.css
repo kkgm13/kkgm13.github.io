@@ -666,6 +666,26 @@ video {
   flex-basis: 100%;
 }
 
+.animate-none {
+  animation: none;
+}
+
+@keyframes flash {
+  0%, 100% {
+    color: white;
+    transform: scale(1);
+  }
+
+  50% {
+    color: #FFD700;
+    transform: scale(1.2);
+  }
+}
+
+.animate-flash {
+  animation: flash 0.5s linear infinite;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -737,9 +757,19 @@ video {
   padding-right: 1rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-4 {
@@ -796,16 +826,17 @@ video {
   color: rgb(255 255 255 / 0.7);
 }
 
+.text-yellow-600 {
+  --tw-text-opacity: 1;
+  color: rgb(202 138 4 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
 
-.decoration-2 {
-  text-decoration-thickness: 2px;
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 
 .shadow-\[0_0px_5px\] {
@@ -841,18 +872,9 @@ video {
   background-color: rgb(255 255 255 / 0.1);
 }
 
-.focus\:text-gray-200:focus {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
 .focus\:text-white:focus {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.focus\:decoration-white\/70:focus {
-  text-decoration-color: rgb(255 255 255 / 0.7);
 }
 
 .focus\:opacity-80:focus {
