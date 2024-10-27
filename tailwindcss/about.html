@@ -256,16 +256,14 @@
         <script>
             document.querySelectorAll('.toggle-btn').forEach(button => {
                 button.addEventListener('click', function() {
-                    // Find the closest `.accordion` container for this button
                     const accordion = this.closest('.accordion');
                     const moreInfo = accordion.querySelector('.moreInfo');
                     const infoIcon = accordion.querySelector('.infoIcon');
                     const arrowIcon = accordion.querySelector('.arrowIcon');
 
-                    // Toggle the max-height for animation
                     if (moreInfo.classList.contains('max-h-0')) {
                         moreInfo.classList.remove('max-h-0');
-                        moreInfo.classList.add('max-h-screen'); // Large enough to fit the content
+                        moreInfo.classList.add('max-h-screen');
                         infoIcon.classList.add('hidden');
                         arrowIcon.classList.remove('hidden');
                     } else {
