@@ -747,6 +747,11 @@
       padding-inline: calc(var(--spacing) * 6);
     }
   }
+  .sm\:py-6 {
+    @media (width >= 40rem) {
+      padding-block: calc(var(--spacing) * 6);
+    }
+  }
   .sm\:ps-5 {
     @media (width >= 40rem) {
       padding-inline-start: calc(var(--spacing) * 5);
@@ -795,6 +800,11 @@
   .md\:px-0 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:py-7\.5 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 7.5);
     }
   }
   .md\:text-2xl {
